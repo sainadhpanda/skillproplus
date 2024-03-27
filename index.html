@@ -2,6 +2,31 @@
 <html lang="en">
 
 <head>
+    <style>
+    .icons-container {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        z-index: 1000; /* Ensure icons appear above other content */
+    }
+
+    .icon-link {
+        background-color: #25D366; /* WhatsApp green color */
+        color: #fff;
+        border-radius: 50%;
+        padding: 10px;
+        margin-left: 10px;
+        transition: background-color 0.3s ease;
+    }
+
+    .icon-link:hover {
+        background-color: #128C7E; /* Darker WhatsApp green color on hover */
+    }
+</style>
+
     <meta charset="utf-8">
     <meta name="google-translate-customization" content="9f841e7780177523-3214ceb76f765f38-gc38c6fe6f9d06436-c">
     </meta>
@@ -34,47 +59,11 @@
 
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
-   <style>
-        /* Style for icon container */
-        .icon-container {
-            position: fixed;
-            bottom: 20px;
-            right: 20px;
-            display: flex;
-            align-items: center;
-        }
-        /* Style for individual icons */
-        .icon-container a {
-            margin-right: 10px;
-            color: #fff;
-            font-size: 24px;
-            text-decoration: none;
-            background-color: #25D366; /* WhatsApp color */
-            border-radius: 50%;
-            width: 40px;
-            height: 40px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-        /* Hover effect for icons */
-        .icon-container a:hover {
-            background-color: #128C7E; /* WhatsApp hover color */
-        }
-    </style> 
+    
 </head>
 
 <body>
-    <div class="icon-container">
-        <!-- WhatsApp Icon -->
-        <a href="https://wa.me/8008997364" target="_blank">
-            <i class="fab fa-whatsapp"></i>
-        </a>
-        <!-- Phone Icon -->
-        <a href="tel:8008997364">
-            <i class="fas fa-phone"></i>
-        </a>
-    </div>
+    
     <!-- Spinner Start -->
     <div id="spinner"
         class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
@@ -83,6 +72,10 @@
         </div>
     </div>
     <!-- Spinner End -->
+    <div class="icons-container">
+    <a href="tel:+1234567890" class="icon-link"><i class="fas fa-phone"></i></a>
+    <a href="https://wa.me/1234567890" class="icon-link"><i class="fab fa-whatsapp"></i></a>
+    </div>
 
 
     <!-- Navbar Start -->
