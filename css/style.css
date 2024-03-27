@@ -339,14 +339,17 @@
     padding: 7rem 0;
     text-align: center;
     height: 35rem;
-    background: #222;
+    
 }
 .welcam span{
     font-size: 3rem;
     padding: 3rem;
     color: var(--min-color);
 }
-/*** Section Title ***/
+.welcam img {
+    max-width: 100%; /* Ensure image stays within container */
+    max-height: 20rem; /* Adjust height as needed */
+}/*** Section Title ***/
 .section-title {
     position: relative;
     display: inline-block;
