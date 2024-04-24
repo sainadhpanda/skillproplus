@@ -170,6 +170,40 @@
 .navbar-toggler {
     border: 2px solid #fb873f;
 }
+.ioop {
+  background-color: #ebebeb;
+}
+.ioop .interhsip {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  margin-top: 2rem;
+}
+.ioop .internship .course-list {
+  display: flex;
+  flex-direction: column;
+  flex: 0 420px;
+  justify-content: space-between;
+  background-color: #fff;
+  border-radius: 10px;
+  margin-bottom: 2rem;
+}
+.ioop .internship .course-list .list-c img {
+  width: 100%;
+}
+.ioop .internship .course-list .list-c .course-content {
+  padding: 0 10px;
+}
+.ioop .internship .course-list .list-c .course-content h3 {
+  font-size: 25px;
+  line-height: 1.2;
+  margin-bottom: 1.2rem;
+}
+.ioop .internship .course-list .list-c .course-content ul {
+  padding-left: 20px;
+}
 
 @media (min-width: 992px) {
     .navbar .nav-item .dropdown-menu {
