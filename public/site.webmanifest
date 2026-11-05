@@ -1,0 +1,8 @@
+{
+  "name": "SkillproPlus",
+  "short_name": "SkillproPlus",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#101a2e",
+  "theme_color": "#101a2e"
+}
