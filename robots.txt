@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://skillproplus.vercel.app/sitemap.xml

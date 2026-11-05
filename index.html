@@ -1,943 +1,118 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
 <head>
-    <meta charset="utf-8">
-    <meta name="google-translate-customization" content="9f841e7780177523-3214ceb76f765f38-gc38c6fe6f9d06436-c">
-    </meta>
-
-    <title>SkillproPlus</title>
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta content="" name="keywords">
-    <meta content="" name="description">
-
-    <!-- Favicon -->
-    <link href="img/log.png" rel="icon">
-
-    <!-- Google Web Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Nunito:wght@600;700;800&display=swap"
-        rel="stylesheet">
-
-    <!-- Icon Font Stylesheet -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
-
-    <!-- Libraries Stylesheet -->
-    <link href="lib/animate/animate.min.css" rel="stylesheet">
-    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-
-    <!-- Customized Bootstrap Stylesheet -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Template Stylesheet -->
-    <link href="css/style.css" rel="stylesheet">
-   
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101c34">
+  <meta name="description" content="SkillproPlus helps students build career-ready skills through internships, final-year IEEE and academic project guidance, and research and technical documentation support.">
+  <meta name="keywords" content="SkillproPlus, student internships, final year projects, IEEE projects, college projects, academic project guidance, research paper writing support, technical documentation, student career skills">
+  <meta name="author" content="SkillproPlus">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="SkillproPlus | Internships, Student Projects & Research Support">
+  <meta property="og:description" content="Practical internships, final-year project guidance, and research and documentation support for students.">
+  <meta property="og:url" content="https://skillproplus.vercel.app/">
+  <meta property="og:site_name" content="SkillproPlus">
+  <meta name="twitter:card" content="summary">
+  <link rel="canonical" href="https://skillproplus.vercel.app/">
+  <link rel="icon" href="img/log.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/modern.css">
+  <title>SkillproPlus | Student Internships, Final-Year Projects & Research Support</title>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "EducationalOrganization",
+    "name": "SkillproPlus",
+    "url": "https://skillproplus.vercel.app/",
+    "sameAs": ["https://www.youtube.com/@skillproplus", "https://www.linkedin.com/company/skillproplus/", "https://www.instagram.com/skillproplus/"],
+    "email": "skillproplus.edu@outlook.com",
+    "telephone": "+91-8008997364",
+    "address": {"@type": "PostalAddress", "addressLocality": "Bengaluru", "addressRegion": "Karnataka", "addressCountry": "IN"},
+    "description": "Student-focused internships, academic project mentoring, and research and technical documentation support."
+  }
+  </script>
 </head>
-
 <body>
-    <!-- Spinner Start -->
-    <div id="spinner"
-        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
-        <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
-            <span class="sr-only">Loading...</span>
-        </div>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="announcement"><div class="wrap announcement-inner"><span>Helping students turn learning into practical experience</span><a href="https://www.youtube.com/@skillproplus" target="_blank" rel="noopener noreferrer">Watch SkillproPlus on YouTube <span aria-hidden="true">↗</span></a></div></div>
+  <header class="site-header">
+    <div class="wrap nav-wrap">
+      <a class="brand" href="index.html" aria-label="SkillproPlus home"><img src="img/log.png" alt="" width="42" height="42"><span>skillpro<span class="brand-accent">plus</span><small>LEARN · BUILD · GROW</small></span></a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav" aria-label="Open navigation"><span></span><span></span><span></span></button>
+      <nav class="nav-links" id="primary-nav" aria-label="Main navigation">
+        <a href="#services">What we do</a><a href="#approach">Our approach</a><a href="#about">About</a><a href="#faq">FAQs</a>
+        <a class="button button-small" href="contact.html">Talk to our team <span aria-hidden="true">→</span></a>
+      </nav>
     </div>
-    <!-- Spinner End -->
-
-
-    <!-- Navbar Start -->
-    <nav class="navbar navbar-expand-lg bg-white navbar-light shadow sticky-top p-0">
-        <a href="index.html" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
-            <p class="m-0 fw-bold" style="font-size: 25px;"><img src="img/log.png" alt="" height="50px">Skillpro<span
-                    style="color: #fb873f;">Plus</span></p>
-        </a>
-        <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-            <div class="navbar-nav ms-auto p-4 p-lg-0">
-                <a href="index.html" class="nav-item nav-link active">Home</a>
-                <a href="about.html" class="nav-item nav-link">About</a>
-                <a href="courses.html" class="nav-item nav-link">Courses</a>
-                <div class="nav-item dropdown">
-                <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Services</a>
-                <div class="dropdown-menu fade-down m-0">
-                        <a href="courses.html" class="dropdown-item">Internships</a>
-                        <a href="projects.html" class="dropdown-item">Academic Projects</a>
-
-                    </div>
-                </div>
-                <a href="contact.html" class="nav-item nav-link">Contact</a>
-                <!--<a href="login.html" class="nav-item nav-link"><i class="fa fa-user"></i></a>-->
-                <a href="#" class="nav-item nav-link">
-
-                <div id="google_translate_element">
-                </div>
-
-
-                </a>
-            </div>
+  </header>
+  <main id="main">
+    <section class="hero">
+      <div class="hero-glow glow-one"></div><div class="hero-glow glow-two"></div>
+      <div class="wrap hero-grid">
+        <div class="hero-copy">
+          <div class="eyebrow eyebrow-light"><span class="eyebrow-dot"></span> A practical learning partner for students</div>
+          <h1>Make your next step<br>in tech <span>count.</span></h1>
+          <p>Build real-world confidence with student internships, final-year project guidance, and thoughtful research and documentation support.</p>
+          <div class="hero-actions"><a class="button button-accent" href="contact.html">Explore how we can help <span aria-hidden="true">→</span></a><a class="text-link light-link" href="#services">Discover our services <span aria-hidden="true">↓</span></a></div>
+          <div class="hero-note"><span class="note-icon">✳</span><span>Support for your learning journey—from first idea to final presentation.</span></div>
         </div>
-    </nav>
-    <!-- Navbar End -->
-
-
-    <!-- Carousel Start -->
-    <div class="container-fluid p-0 mb-4">
-        <div class="owl-carousel header-carousel position-relative">
-            <div class="owl-carousel-item position-relative">
-                <img class="img-fluid" src="img/19.png" alt="">
-                <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center"
-                    style="background: rgba(24, 29, 56, .7);">
-                    <div class="container">
-                        <div class="row justify-content-start">
-                            <div class="col-sm-10 col-lg-8">
-                                <h5 class=" text-uppercase mb-3 animated slideInDown" style="color: #fb873f;">Best
-                                    learning platform</h5>
-                                <h1 class="display-3 text-white animated slideInDown">Learn Job ready skills  with certificates</h1>
-                                <p class=" text-white mb-4 pb-2">Explore a wide range of courses designed to enhance
-                                    your expertise in technology, business, arts, and more. Start learning today!</p>
-                                <a href="about.html"
-                                    class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Read More</a>
-                                <!--<a href="signup.html" class="btn btn-light py-md-3 px-md-5 animated slideInRight">Join
-                                    Now</a>-->
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="owl-carousel-item position-relative">
-                <img class="img-fluid" src="img/16.png" alt="">
-                <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center"
-                    style="background: rgba(24, 29, 56, .7);">
-                    <div class="container">
-                        <div class="row justify-content-start">
-                            <div class="col-sm-10 col-lg-8">
-                                <h5 class=" text-uppercase mb-3 animated slideInDown" style="color: #fb873f;">Welcome to
-                                    SkillproPlus</h5>
-                                <h1 class="display-3 text-white animated slideInDown">Interactive Learning Experience
-                                </h1>
-                                <p class=" text-white mb-4 pb-2">Engage with interactive lessons, quizzes, and
-                                    projects. Experience hands-on learning that keeps you motivated and inspired.</p>
-                                <a href="about.html"
-                                    class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Read More</a>
-                                <!--<a href="signup.html" class="btn btn-light py-md-3 px-md-5 animated slideInRight">Join
-                                    Now</a>-->
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+        <div class="hero-art" aria-label="A visual illustration of a student project workspace" role="img">
+          <div class="orbit orbit-a"></div><div class="orbit orbit-b"></div>
+          <div class="code-card"><div class="code-top"><i></i><i></i><i></i><span>your-next-project</span></div><div class="code-body"><span class="code-muted">01</span> <b>idea</b><span class="code-symbol"> → </span><span class="code-green">project</span><br><span class="code-muted">02</span> <b>learn</b><span class="code-symbol"> → </span><span class="code-blue">build</span><br><span class="code-muted">03</span> <b>practice</b><span class="code-symbol"> → </span><span class="code-orange">grow</span><div class="code-progress"><span></span></div><small>YOUR JOURNEY, WITH A PLAN</small></div></div>
+          <div class="float-chip chip-internship"><span>↗</span><div><b>Internships</b><small>Learn by doing</small></div></div>
+          <div class="float-chip chip-project"><span>⌘</span><div><b>Student projects</b><small>Make ideas tangible</small></div></div>
+          <div class="hero-caption"><span class="caption-line"></span> Skills for what comes next</div>
         </div>
-    </div>
-    <!-- Carousel End -->
-
-
-    <!-- Service Start -->
-    <div class="container-xxl py-5">
-        <div class="container">
-            <div class="row g-2 text-center">
-                <div class="col-12 wow fadeInUp" data-wow-delay="0.3s">
-                    <h1 style="color: #fb873f;">Invest in your professional goals with SkillproPlus</h1>
-                    <p class="mb-5">Get unlimited access to over 90% of courses, Projects, Specializations, and
-                        Professional Certificates on Coursera, taught by top instructors.</p>
-                </div>
-            </div>
-            <div class="row g-4">
-                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="service-item text-center pt-3 shadow">
-                        <div class="p-4">
-                            <img src="img/icon1.png" alt="" width="60px" class="mb-4">
-                            <h5 class="mb-3">Learn anything</h5>
-                            <p>Explore any interest or trending topic, take prerequisites, and advance your skills</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
-                    <div class="service-item text-center pt-3 shadow">
-                        <div class="p-4">
-                            <img src="img/icon2.png" alt="" width="60px" class="mb-4">
-                            <h5 class="mb-3">Save money</h5>
-                            <p>Spend less money on your learning if you plan to take multiple courses this year</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="service-item text-center pt-3 shadow">
-                        <div class="p-4">
-                            <img src="img/icon3.png" alt="" width="60px" class="mb-4">
-                            <h5 class="mb-3">Flexible learning</h5>
-                            <p>Learn at your own pace, move between multiple courses, or switch to a different course
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.7s">
-                    <div class="service-item text-center pt-3 shadow">
-                        <div class="p-4">
-                            <img src="img/icon4.png" alt="" width="60px" class="mb-4">
-                            <h5 class="mb-3">Unlimited certificates</h5>
-                            <p>Earn a certificate for every learning program that you complete at no additional cost</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Service End -->
-
-
-    <!-- About Start -->
-    <div class="container-xxl py-5">
-        <div class="container">
-            <div class="row g-5">
-                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
-                    <div class="position-relative h-100">
-                        <img class="img-fluid position-absolute w-100 h-100" src="img/about.jpg" alt=""
-                            style="object-fit: cover;">
-                    </div>
-                </div>
-                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
-                    <h6 class="section-title bg-white text-start pe-3">About Us</h6>
-                    <h1 class="mb-4" style="color: #fb873f;">Welcome to SkillproPlus</h1>
-                    <p class="mb-4">At SkillproPlus, we believe in accessible, innovative learning experiences that
-                        adapt to your schedule and learning style. Join us in embracing the future of education and
-                        unlock your potential with our immersive online courses.</p>
-                    <p class="mb-4"> Welcom to SkillproPlus, your gateway to boundless learning opportunities. We're
-                        dedicated to democratizing education, offering a diverse range of courses taught by industry
-                        experts. Our mission is to empower learners worldwide, fostering a community-driven platform
-                        where knowledge knows no limits.</p>
-                    <div class="row gy-2 gx-4 mb-4">
-                        <div class="col-sm-6">
-                            <p class="mb-0"><i class="fa fa-arrow-right  me-2"></i>Expert Instructors</p>
-                        </div>
-                        <div class="col-sm-6">
-                            <p class="mb-0"><i class="fa fa-arrow-right me-2"></i>Live Interactive Sessions</p>
-                        </div>
-                        <div class="col-sm-6">
-                            <p class="mb-0"><i class="fa fa-arrow-right me-2"></i>Comprehensive Course Catalog</p>
-                        </div>
-                        <div class="col-sm-6">
-                            <p class="mb-0"><i class="fa fa-arrow-right me-2"></i>Community Engagement</p>
-                        </div>
-                        <div class="col-sm-6">
-                            <p class="mb-0"><i class="fa fa-arrow-right me-2"></i>Personalized Learning Paths</p>
-                        </div>
-                        <div class="col-sm-6">
-                            <p class="mb-0"><i class="fa fa-arrow-right me-2"></i>Certification and Recognition</p>
-                        </div>
-                    </div>
-                    <a class="btn text-light py-3 px-5 mt-2" href="about.html">Read More</a>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- About End -->
-
-
-
-
-    <!-- Banner-1 Start -->
-    <div class="container-xxl py-5 pt-5 bg-light">
-        <div class="container">
-            <div class="row g-5 ">
-                <div class="col-lg-6 p-5 wow fadeInUp" data-wow-delay="0.3s">
-
-                    <h1 class="mb-4" style="color: #fb873f;">Explore Free Courses</h1>
-                    <p class="mb-4">Start your online learning journey at Great Learning Academy for free with our
-                        short-term basic courses across various in-demand domains.</p>
-
-                    <a class="btn text-light py-3 px-5 mt-2" href="courses.html">Start For Free</a>
-                </div>
-                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
-                    <div class="position-relative h-100">
-                        <img class="img-fluid position-absolute w-100 h-100" src="img/banner-1.jpg" alt=""
-                            style="object-fit: cover;">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Banner-1 End -->
-
-
-
-    <!-- Categories Start -->
-    <div class="container-xxl py-5 category">
-        <div class="container">
-            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-                <h6 class="section-title bg-white text-center px-3">Categories</h6>
-                <h1 class="mb-5" style="color: #fb873f;">Popular Topics to Explore</h1>
-            </div>
-            <div class="row g-2 m-2">
-                <div class="col-lg-3 col-md-6  text-center">
-                    <div class="content shadow p-3 mb-2 wow fadeInUp" data-wow-delay="0.3s">
-
-                        <img src="digitalmarketing.png" class="img-fluid" alt="categories"></i>
-
-                        <h5 class="my-2">
-                            <a href="#" class="text-center">Digital Marketing</a>
-                        </h5>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6  text-center">
-                    <div class="content shadow p-3 mb-2 wow fadeInUp" data-wow-delay="0.3s">
-
-                        <img src="ai.png" class="img-fluid" alt="categories"></i>
-
-                        <h5 class="my-2">
-                            <a href="#" class="text-center">AI</a>
-                        </h5>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6  text-center">
-                    <div class="content shadow p-3 mb-2 wow fadeInUp" data-wow-delay="0.3s">
-
-                        <img src="img/cat3.png" class="img-fluid" alt="categories"></i>
-
-                        <h5 class="my-2">
-                            <a href="#" class="text-center">Python</a>
-                        </h5>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6  text-center">
-                    <div class="content shadow p-3 mb-2 wow fadeInUp" data-wow-delay="0.3s">
-
-                        <img src="img/cat4.png" class="img-fluid" alt="categories"></i>
-
-                        <h5 class="my-2">
-                            <a href="#" class="text-center">Java</a>
-                        </h5>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6  text-center">
-                    <div class="content shadow p-3 mb-2 wow fadeInUp" data-wow-delay="0.3s">
-
-                        <img src="img/cat5.png" class="img-fluid" alt="categories"></i>
-
-                        <h5 class="my-2">
-                            <a href="#" class="text-center">Web Design</a>
-                        </h5>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6  text-center">
-                    <div class="content shadow p-3 mb-2 wow fadeInUp" data-wow-delay="0.3s">
-
-                        <img src="img/cat6.png" class="img-fluid" alt="categories"></i>
-
-                        <h5 class="my-2">
-                            <a href="#" class="text-center">Web Development</a>
-                        </h5>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6  text-center">
-                    <div class="content shadow p-3 mb-2 wow fadeInUp" data-wow-delay="0.3s">
-
-                        <img src="img/cat7.png" class="img-fluid" alt="categories"></i>
-
-                        <h5 class="my-2">
-                            <a href="#" class="text-center">MySQL</a>
-                        </h5>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6  text-center">
-                    <div class="content shadow p-3 mb-2 wow fadeInUp" data-wow-delay="0.3s">
-
-                        <img src="img/cat8.png" class="img-fluid" alt="categories"></i>
-
-                        <h5 class="my-2">
-                            <a href="#" class="text-center">UI/UX Design</a>
-                        </h5>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Categories End -->
-    <div class="welcam">
-        <span>Our Partners </span>
-        <section class="partners">
-            <div class="partner">
-                <img src="img\logo4.jpeg" alt="Partner 1">
-                <p>RAVURU TECH PVT LTD</p>
-            </div>
-    </div>
-
-   <!-- Courses Start -->
-    <div class="container-xxl py-5">
-        <div class="container">
-            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-                <h6 class="section-title bg-white text-center px-3">Popular Courses</h6>
-                <h1 class="mb-5" style="color: #fb873f;">Explore new and trending free online courses</h1>
-            </div>
-            <div class="row g-4 py-2">
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="course-item shadow">
-                        <div class="position-relative overflow-hidden text-light image">
-                            <img class="img-fluid" src="img/course-1.jpg" alt="">
-                            <div style="position:absolute;top: 15px;left: 16px; font-size:12px; border-radius:3px; background-color:#fb873f;"
-                                class="px-2 py-1 fw-bold text-uppercase"></div>
-
-                        </div>
-                        <div class="p-2 pb-0">
-
-                            <h5 class="mb-1"><a href="single.html" class="text-dark">HTML Course for Beginners </a></h5>
-                        </div>
-                        <div class="d-flex">
-                            <small class="flex-fill text-center py-1 px-2"><i class="fa fa-star text-warning me-2"></i>
-                                4.55</small>
-                            <small class="flex-fill text-center py-1 px-2"><i class="fa fa-user-graduate me-2"></i>5.8L+
-                                Learners
-                            </small>
-                            <small class="flex-fill text-center py-1 px-2"><i
-                                    class="fa fa-user me-2"></i>Beginner</small>
-                        </div>
-                        <div class="d-flex">
-                            <small class="flex-fill text-left p-2 px-2"><i class="fa fa-clock me-2"></i>2.0
-                                Hrs</small>
-                            <small class="py-1 px-2 fw-bold fs-6 text-center"></small>
-                            <small class=" text-primary py-1 px-2 fw-bold fs-6" style="float:right;"><a href="#">Enroll
-                                    Now </a><i class="fa fa-chevron-right me-2 fs-10"></i></small>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="course-item shadow">
-                        <div class="position-relative overflow-hidden text-light image">
-                            <img class="img-fluid" src="img/course-2.jpg" alt="">
-                            <div style="position:absolute;top: 15px;left: 16px; font-size:12px; border-radius:3px; background-color:#0ed44c;"
-                                class="px-2 py-1 fw-bold text-uppercase"></div>
-
-                        </div>
-                        <div class="p-2 pb-0">
-
-                            <h5 class="mb-1">Front End Development-CSS
-                            </h5>
-                        </div>
-                        <div class="d-flex">
-                            <small class="flex-fill text-center py-1 px-2"><i class="fa fa-star text-warning me-2"></i>
-                                4.55</small>
-                            <small class="flex-fill text-center py-1 px-2"><i class="fa fa-user-graduate me-2"></i>5.2L+
-                                Learners
-                            </small>
-                            <small class="flex-fill text-center py-1 px-2"><i
-                                    class="fa fa-user me-2"></i>Beginner</small>
-                        </div>
-                        <div class="d-flex">
-                            <small class="flex-fill text-left p-2 px-2"><i class="fa fa-clock me-2"></i>4.0
-                                Hrs</small>
-                            <small class="py-1 px-2 fw-bold fs-6 text-center"></small>
-                            <small class=" text-primary py-1 px-2 fw-bold fs-6" style="float:right;"><a href="#">Enroll
-                                    Now </a><i class="fa fa-chevron-right me-2 fs-10"></i></small>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="course-item shadow">
-                        <div class="position-relative overflow-hidden text-light image">
-                            <img class="img-fluid" src="img/course-3.jpg" alt="">
-                            <div style="position:absolute;top: 15px;left: 16px; font-size:12px; border-radius:3px; background-color:#fb873f;"
-                                class="px-2 py-1 fw-bold text-uppercase"></div>
-
-                        </div>
-                        <div class="p-2 pb-0">
-
-                            <h5 class="mb-1">Introduction to JavaScript
-                            </h5>
-                        </div>
-                        <div class="d-flex">
-                            <small class="flex-fill text-center py-1 px-2"><i class="fa fa-star text-warning me-2"></i>
-                                4.46</small>
-                            <small class="flex-fill text-center py-1 px-2"><i class="fa fa-user-graduate me-2"></i>76L+
-                                Learners
-                            </small>
-                            <small class="flex-fill text-center py-1 px-2"><i
-                                    class="fa fa-user me-2"></i>Beginner</small>
-                        </div>
-                        <div class="d-flex">
-                            <small class="flex-fill text-left p-2 px-2"><i class="fa fa-clock me-2"></i>2.5
-                                Hrs</small>
-                            <small class="py-1 px-2 fw-bold fs-6 text-center"></small>
-                            <small class=" text-primary py-1 px-2 fw-bold fs-6" style="float:right;"><a href="#">Enroll
-                                    Now </a><i class="fa fa-chevron-right me-2 fs-10"></i></small>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="course-item shadow">
-                        <div class="position-relative overflow-hidden text-light image">
-                            <img class="img-fluid" src="img/course-4.jpg" alt="">
-                            <div style="position:absolute;top: 15px;left: 16px; font-size:12px; border-radius:3px; background-color:#0ed44c;"
-                                class="px-2 py-1 fw-bold text-uppercase"></div>
-
-                        </div>
-                        <div class="p-2 pb-0">
-
-                            <h5 class="mb-1">Python Programming
-                            </h5>
-                        </div>
-                        <div class="d-flex">
-                            <small class="flex-fill text-center py-1 px-2"><i class="fa fa-star text-warning me-2"></i>
-                                3.54</small>
-                            <small class="flex-fill text-center py-1 px-2"><i class="fa fa-user-graduate me-2"></i>3.3L+
-                                Learners
-                            </small>
-                            <small class="flex-fill text-center py-1 px-2"><i
-                                    class="fa fa-user me-2"></i>Beginner</small>
-                        </div>
-                        <div class="d-flex">
-                            <small class="flex-fill text-left p-2 px-2"><i class="fa fa-clock me-2"></i>3.0
-                                Hrs</small>
-                            <small class="py-1 px-2 fw-bold fs-6 text-center"></small>
-                            <small class=" text-primary py-1 px-2 fw-bold fs-6" style="float:right;"><a href="#">Enroll
-                                    Now </a><i class="fa fa-chevron-right me-2 fs-10"></i></small>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="course-item shadow">
-                        <div class="position-relative overflow-hidden text-light image">
-                            <img class="img-fluid" src="img/course-5.jpg" alt="">
-                            <div style="position:absolute;top: 15px;left: 16px; font-size:12px; border-radius:3px; background-color:#fb873f;"
-                                class="px-2 py-1 fw-bold text-uppercase"></div>
-
-                        </div>
-                        <div class="p-2 pb-0">
-
-                            <h5 class="mb-1">SQL for Data Science
-                            </h5>
-                        </div>
-                        <div class="d-flex">
-                            <small class="flex-fill text-center py-1 px-1"><i class="fa fa-star text-warning me-2"></i>
-                                4.54</small>
-                            <small class="flex-fill text-center py-1 px-1"><i class="fa fa-user-graduate me-2"></i>1.3L+
-                                Learners
-                            </small>
-                            <small class="flex-fill text-center py-1 px-1"><i
-                                    class="fa fa-user me-2"></i>Intermediate</small>
-                        </div>
-                        <div class="d-flex">
-                            <small class="flex-fill text-left p-2 px-2"><i class="fa fa-clock me-2"></i>5.0
-                                Hrs</small>
-                            <small class="py-1 px-2 fw-bold fs-6 text-center"></small>
-                            <small class=" text-primary py-1 px-2 fw-bold fs-6" style="float:right;"><a href="#">Enroll
-                                    Now </a><i class="fa fa-chevron-right me-2 fs-10"></i></small>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="course-item shadow">
-                        <div class="position-relative overflow-hidden text-light image">
-                            <img class="img-fluid" src="img/course-6.jpg" alt="">
-                            <div style="position:absolute;top: 15px;left: 16px; font-size:12px; border-radius:3px; background-color:#fb873f;"
-                                class="px-2 py-1 fw-bold text-uppercase"></div>
-
-                        </div>
-                        <div class="p-2 pb-0">
-
-                            <h5 class="mb-1">ChatGPT for Beginners
-                            </h5>
-                        </div>
-                        <div class="d-flex">
-                            <small class="flex-fill text-center py-1 px-2"><i class="fa fa-star text-warning me-2"></i>
-                                3.55</small>
-                            <small class="flex-fill text-center py-1 px-2"><i class="fa fa-user-graduate me-2"></i>3.5L+
-                                Learners
-                            </small>
-                            <small class="flex-fill text-center py-1 px-2"><i
-                                    class="fa fa-user me-2"></i>Beginner</small>
-                        </div>
-                        <div class="d-flex">
-                            <small class="flex-fill text-left p-2 px-2"><i class="fa fa-clock me-2"></i>4.5
-                                Hrs</small>
-                            <small class="py-1 px-2 fw-bold fs-6 text-center"></small>
-                            <small class=" text-primary py-1 px-2 fw-bold fs-6" style="float:right;"><a href="#">Enroll
-                                    Now </a><i class="fa fa-chevron-right me-2 fs-10"></i></small>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="course-item shadow">
-                        <div class="position-relative overflow-hidden text-light image">
-                            <img class="img-fluid" src="digitalmarketing.png" alt="">
-                            <div style="position:absolute;top: 15px;left: 16px; font-size:12px; border-radius:3px; background-color:#fb873f;"
-                                class="px-2 py-1 fw-bold text-uppercase"></div>
-
-                        </div>
-                        <div class="p-2 pb-0">
-
-                            <h5 class="mb-1">Digital Marketing for Beginners
-                            </h5>
-                        </div>
-                        <div class="d-flex">
-                            <small class="flex-fill text-center py-1 px-2"><i class="fa fa-star text-warning me-2"></i>
-                                4.53</small>
-                            <small class="flex-fill text-center py-1 px-2"><i class="fa fa-user-graduate me-2"></i>1L+
-                                Learners
-                            </small>
-                            <small class="flex-fill text-center py-1 px-2"><i
-                                    class="fa fa-user me-2"></i>Beginner</small>
-                        </div>
-                        <div class="d-flex">
-                            <small class="flex-fill text-left p-2 px-2"><i class="fa fa-clock me-2"></i>3.0
-                                Hrs</small>
-                            <small class="py-1 px-2 fw-bold fs-6 text-center"></small>
-                            <small class=" text-primary py-1 px-2 fw-bold fs-6" style="float:right;"><a href="#">Enroll
-                                    Now </a><i class="fa fa-chevron-right me-2 fs-10"></i></small>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="course-item shadow">
-                        <div class="position-relative overflow-hidden text-light image">
-                            <img class="img-fluid" src="ai.png" alt="">
-                            <div style="position:absolute;top: 15px;left: 16px; font-size:12px; border-radius:3px; background-color:#0ed44c;"
-                                class="px-2 py-1 fw-bold text-uppercase"></div>
-
-                        </div>
-                        <div class="p-2 pb-0">
-
-                            <h5 class="mb-1">AI for Beginners
-                            </h5>
-                        </div>
-                        <div class="d-flex">
-                            <small class="flex-fill text-center py-1 px-1"><i class="fa fa-star text-warning me-2"></i>
-                                4.64</small>
-                            <small class="flex-fill text-center py-1 px-1"><i class="fa fa-user-graduate me-2"></i>4.4L+
-                                Learners
-                            </small>
-                            <small class="flex-fill text-center py-1 px-1"><i
-                                    class="fa fa-user me-2"></i>Intermediate</small>
-                        </div>
-                        <div class="d-flex">
-                            <small class="flex-fill text-left p-2 px-2"><i class="fa fa-clock me-2"></i>3.5
-                                Hrs</small>
-                            <small class="py-1 px-2 fw-bold fs-6 text-center"></small>
-                            <small class=" text-primary py-1 px-2 fw-bold fs-6" style="float:right;"><a href="#">Enroll
-                                    Now </a><i class="fa fa-chevron-right me-2 fs-10"></i></small>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="course-item shadow">
-                        <div class="position-relative overflow-hidden text-light image">
-                            <img class="img-fluid" src="img/course-9.jpg" alt="">
-                            <div style="position:absolute;top: 15px;left: 16px; font-size:12px; border-radius:3px; background-color:#fb873f;"
-                                class="px-2 py-1 fw-bold text-uppercase"></div>
-
-                        </div>
-                        <div class="p-2 pb-0">
-
-                            <h5 class="mb-1">Introduction to MS Excel</h5>
-                        </div>
-                        <div class="d-flex">
-                            <small class="flex-fill text-center py-1 px-2"><i class="fa fa-star text-warning me-2"></i>
-                                4.6</small>
-                            <small class="flex-fill text-center py-1 px-2"><i class="fa fa-user-graduate me-2"></i>4.2L+
-                                Learners
-                            </small>
-                            <small class="flex-fill text-center py-1 px-2"><i
-                                    class="fa fa-user me-2"></i>Beginner</small>
-                        </div>
-                        <div class="d-flex">
-                            <small class="flex-fill text-left p-2 px-2"><i class="fa fa-clock me-2"></i>3.5
-                                Hrs</small>
-                            <small class="py-1 px-2 fw-bold fs-6 text-center"></small>
-                            <small class=" text-primary py-1 px-2 fw-bold fs-6" style="float:right;"><a href="#">Enroll
-                                    Now </a><i class="fa fa-chevron-right me-2 fs-10"></i></small>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="course-item shadow">
-                        <div class="position-relative overflow-hidden text-light image">
-                            <img class="img-fluid" src="img/course-10.jpg" alt="">
-                            <div style="position:absolute;top: 15px;left: 16px; font-size:12px; border-radius:3px; background-color:#0ed44c;"
-                                class="px-2 py-1 fw-bold text-uppercase"></div>
-
-                        </div>
-                        <div class="p-2 pb-0">
-
-                            <h5 class="mb-1">Statistics For Data Science
-                            
-                                
-                            </h5>
-                        </div>
-                        <div class="d-flex">
-                            <small class="flex-fill text-center py-1 px-1"><i class="fa fa-star text-warning me-2"></i>
-                                4.55</small>
-                            <small class="flex-fill text-center py-1 px-1"><i class="fa fa-user-graduate me-2"></i>5.3L+
-                                Learners
-                            </small>
-                            <small class="flex-fill text-center py-1 px-1"><i
-                                    class="fa fa-user me-2"></i>Intermediate</small>
-                        </div>
-                        <div class="d-flex">
-                            <small class="flex-fill text-left p-2 px-2"><i class="fa fa-clock me-2"></i>2.5
-                                Hrs</small>
-                            <small class="py-1 px-2 fw-bold fs-6 text-center">₹ 299</small>
-                            <small class=" text-primary py-1 px-2 fw-bold fs-6" style="float:right;"><a href="#">Enroll
-                                    Now </a><i class="fa fa-chevron-right me-2 fs-10"></i></small>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="course-item shadow">
-                        <div class="position-relative overflow-hidden text-light image">
-                            <img class="img-fluid" src="img/course-11.jpg" alt="">
-                            <div style="position:absolute;top: 15px;left: 16px; font-size:12px; border-radius:3px; background-color:#fb873f;"
-                                class="px-2 py-1 fw-bold text-uppercase"></div>
-
-                        </div>
-                        <div class="p-2 pb-0">
-
-                            <h5 class="mb-1">Java Programming
-                            </h5>
-                        </div>
-                        <div class="d-flex">
-                            <small class="flex-fill text-center py-1 px-2"><i class="fa fa-star text-warning me-2"></i>
-                                4.45</small>
-                            <small class="flex-fill text-center py-1 px-2"><i class="fa fa-user-graduate me-2"></i>5L+
-                                Learners
-                            </small>
-                            <small class="flex-fill text-center py-1 px-2"><i
-                                    class="fa fa-user me-2"></i>Beginner</small>
-                        </div>
-                        <div class="d-flex">
-                            <small class="flex-fill text-left p-2 px-2"><i class="fa fa-clock me-2"></i>2.0
-                                Hrs</small>
-                            <small class="py-1 px-2 fw-bold fs-6 text-center">₹ 0</small>
-                            <small class=" text-primary py-1 px-2 fw-bold fs-6" style="float:right;"><a href="#">Enroll
-                                    Now </a><i class="fa fa-chevron-right me-2 fs-10"></i></small>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="course-item shadow">
-                        <div class="position-relative overflow-hidden text-light image">
-                            <img class="img-fluid" src="img/course-12.png" alt="">
-                            <div style="position:absolute;top: 15px;left: 16px; font-size:12px; border-radius:3px; background-color:#fb873f;"
-                                class="px-2 py-1 fw-bold text-uppercase"></div>
-
-                        </div>
-                        <div class="p-2 pb-0">
-
-                            <h5 class="mb-1">C for Beginners
-                            </h5>
-                        </div>
-                        <div class="d-flex">
-                            <small class="flex-fill text-center py-1 px-2"><i class="fa fa-star text-warning me-2"></i>
-                                4.5</small>
-                            <small class="flex-fill text-center py-1 px-2"><i class="fa fa-user-graduate me-2"></i>1.1L+
-                                Learners
-                            </small>
-                            <small class="flex-fill text-center py-1 px-2"><i
-                                    class="fa fa-user me-2"></i>Beginner</small>
-                        </div>
-                        <div class="d-flex">
-                            <small class="flex-fill text-left p-2 px-2"><i class="fa fa-clock me-2"></i>1.5
-                                Hrs</small>
-                            <small class="py-1 px-2 fw-bold fs-6 text-center"></small>
-                            <small class=" text-primary py-1 px-2 fw-bold fs-6" style="float:right;"><a href="#">Enroll
-                                    Now </a><i class="fa fa-chevron-right me-2 fs-10"></i></small>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-    </div>
-    <div class="container text-center">
-        <a class="btn text-light py-3 px-5 mt-2 mb-5" href="courses.html">All Courses</a>
-    </div>
-    <!-- Courses End -->
-
-
-    <!-- Banner-2 Start -->
-    <section class="pb-5" style="background: url('img/banner-3.jpg');">
-        <div class="container-xxl mt-5" >
-            <div class="container" >
-                <div class="row g-5 ">
-    
-                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
-                        <div class="position-relative h-100">
-                            
-                            <img class="img-fluid position-absolute w-100 h-100 bg-light" src="img/1.jpeg" alt=""
-                                style="object-fit: cover;">
-                              
-                              
-                        </div>
-                    </div>
-    
-                    <div class="col-lg-6 p-5 wow fadeInUp" data-wow-delay="0.3s">
-    
-                        <h1 class="mb-4" style="color: #fb873f;">Approved By</h1>
-                        <!--<p class="mb-4 text-white">Instructors from around the world teach millions of learners on Udemy. We provide
-                            the tools and skills to teach what you love.</p>
-    
-                        <a class="btn text-light py-3 mt-2" href="instructor.html">Start Teaching Today</a>-->
-                    </div>
-    
-                </div>
-            </div>
-        </div>
+      </div>
+      <div class="wrap hero-bottom"><span>FOR STUDENTS AND EMERGING PROFESSIONALS</span><span class="bottom-divider"></span><span>INTERNSHIPS · PROJECTS · RESEARCH SUPPORT</span></div>
     </section>
-    <!-- Banner-2 End -->
 
-    <!-- FAQ Start  -->
-    <div class="container-xxl py-5 category">
-        <div class="container">
-            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-                
-                <h1 class="mb-5">Frequently Asked Questions</h1>
-            </div>
-            <div class="row g-2">
-                <div class="col-12">
-                    <div class="accordion" id="accordionExample">
-                        <div class="accordion-item">
-                          <h2 class="accordion-header">
-                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                What is the SkillproPlus ?
-                            </button>
-                          </h2>
-                          <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
-                            <div class="accordion-body">
-                                The SkillproPlus is an initiative taken by SkillproPlus, where we offer 1000+ free online courses in cutting-edge technologies and have successfully enrolled a whopping 5 Million+ learners across all domains. SkillproPlus covers courses on Data Science, Machine Learning, Artificial Intelligence, Cloud Computing, Software Development, Sales and Business Development, Digital Marketing, Big Data, and many more.
-                            </div>
-                          </div>
-                        </div>
-                        <div class="accordion-item">
-                          <h2 class="accordion-header">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                Why should I choose Great Learning Academy for free courses with certificates ?
-                            </button>
-                          </h2>
-                          <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                            <div class="accordion-body">
-                                Great Learning Academy is an excellent choice for free courses with certificates because of the high quality of the learning content. The courses are well-crafted, offer a great learning experience, and are interactive and engaging, making them ideal for learners in identifying what works best for their career goals.
-                            </div>
-                          </div>
-                        </div>
-                        <div class="accordion-item">
-                          <h2 class="accordion-header">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                How many free courses can I enroll in at the same time?
-                            </button>
-                          </h2>
-                          <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                            <div class="accordion-body">
-                                You can simultaneously enroll in multiple courses at SkillproPlus.
-                            </div>
-                          </div>
-                        </div>
-                        <div class="accordion-item">
-                            <h2 class="accordion-header">
-                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                                How can I enroll in these free online courses?
-                              </button>
-                            </h2>
-                            <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                You can click on the “Sign Up” button at the top-right of the page and register with your email address, or you can sign up using your Google Account.       
-                                </div>
-                            </div>
-                          </div>
-                          <div class="accordion-item">
-                            <h2 class="accordion-header">
-                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                                What are the most popular free courses offered by SkillproPlus ?
-                              </button>
-                            </h2>
-                            <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                              <div class="accordion-body">
-                                SkillproPlus focuses on in-demand concepts and skills, where learners can develop industry-relevant knowledge in their chosen sector. It provides a wide range of courses in prestigious fields, assisting learners across the globe in achieving their professional goals.
+    <section class="intro section-pad" id="about">
+      <div class="wrap intro-grid"><div><div class="eyebrow"><span class="eyebrow-dot"></span> Welcome to SkillproPlus</div><h2>More than a project.<br><span class="serif-accent">A step forward.</span></h2></div><div class="intro-copy"><p>We help students connect classroom concepts with practical skills. Whether you are exploring an internship, shaping a final-year project, or preparing clear technical documentation, our team is here to guide your next step.</p><a class="text-link" href="about.html">Get to know us <span aria-hidden="true">→</span></a></div></div>
+    </section>
 
-                                <p>Some of the most popular free courses offered by SkillproPlus that are in high demand today include:</p>
-                                <ul>
-                                    <li>Free Data Science Courses</li>
-                                    <li>Free Artificial Intelligence Courses</li>
-                                    <li>Free Software Courses</li>
-                                    <li>Free Cloud Computing Courses</li>
-                                </ul>
-                              </div>
-                            </div>
-                          </div>
-                      </div>
-                </div>
-            </div>
+    <section class="services section-pad" id="services">
+      <div class="wrap"><div class="section-heading"><div><div class="eyebrow"><span class="eyebrow-dot"></span> Ways we can help</div><h2>Good work starts<br>with <span class="serif-accent">the right support.</span></h2></div><p>Practical, student-focused guidance shaped around your goals, subject, and stage of study.</p></div>
+        <div class="service-grid">
+          <article class="service-card service-featured"><div class="service-number">01 <span> / CAREER</span></div><div class="service-icon icon-violet">↗</div><h3>Internships &amp; career skills</h3><p>Explore internship learning opportunities and build useful skills through structured, hands-on practice and mentorship.</p><a href="internship.html" class="card-link">Explore internships <span aria-hidden="true">→</span></a></article>
+          <article class="service-card"><div class="service-number">02 <span> / BUILD</span></div><div class="service-icon icon-mint">⌘</div><h3>Final-year &amp; IEEE projects</h3><p>Get guidance planning and developing engineering, computing, and interdisciplinary academic projects—including IEEE-inspired topics.</p><a href="projects.html" class="card-link">Explore project guidance <span aria-hidden="true">→</span></a></article>
+          <article class="service-card"><div class="service-number">03 <span> / WRITE</span></div><div class="service-icon icon-peach">✎</div><h3>Research &amp; documentation</h3><p>Strengthen your research process and communicate your own work with clear reports, technical documentation, and presentation support.</p><a href="contact.html" class="card-link">Discuss your requirements <span aria-hidden="true">→</span></a></article>
         </div>
-    </div>
-    <!-- FAQ End  -->
+        <p class="integrity-note"><span aria-hidden="true">✳</span> Research and writing support is intended to help you develop and present your own work responsibly. We do not promise publication or supply published papers.</p>
+      </div>
+    </section>
 
-    <!-- Footer Start -->
-    <div class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
-        <div class="container py-5">
-            <div class="row g-5">
-                <div class="col-lg-4 col-md-6">
-                    <h4 class="text-white mb-3">Quick Link</h4>
-                    <p><a class="text-light" href="about.html">About Us</a></p>
-                    <p><a class="text-light" href="contact.html">Contact Us</a></p>
-                    <p><a class="text-light" href="">Privacy Policy</a></p>
-                    <p><a class="text-light" href="">Terms & Condition</a></p>
-                    <p><a class="text-light" href="">FAQs & Help</a></p>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <h4 class="text-white mb-3">Contact</h4>
-                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Bangalore, Karnataka</p>
-                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+91 8008997364</p>
-                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>skillproplus.edu@outlook.com</p>
-                    <div class="d-flex pt-2">
-                        <!--<a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>-->
-                        <a class="btn btn-outline-light btn-social" href="https://www.facebook.com/profile.php?id=61556417222696"><i class="fab fa-facebook-f"></i></a>
-                        <a class="btn btn-outline-light btn-social" href="https://www.instagram.com/skillproplus?igsh=cjk1OXdqNWNzamVm&utm_source=qr"><i class="fab fa-instagram"></i></a>
-                        <a class="btn btn-outline-light btn-social" href="https://www.linkedin.com/company/skillproplus/"><i class="fab fa-linkedin-in"></i></a>
-                    </div>
-                </div>
+    <section class="approach section-pad" id="approach"><div class="wrap approach-grid"><div class="approach-copy"><div class="eyebrow eyebrow-light"><span class="eyebrow-dot"></span> A clear, student-first process</div><h2>From “where do I start?”<br>to <span>“I built this.”</span></h2><p>Get guidance that keeps the focus on your learning, your contribution, and the requirements of your course.</p><a class="button button-accent" href="contact.html">Start a conversation <span aria-hidden="true">→</span></a></div><div class="steps"><article class="step"><span class="step-index">01</span><div><h3>Tell us what you need</h3><p>Share your subject, timeline, interests, and what you want to achieve.</p></div><span class="step-mark">↗</span></article><article class="step"><span class="step-index">02</span><div><h3>Make a practical plan</h3><p>Explore a suitable learning, project, or documentation path with our team.</p></div><span class="step-mark">↗</span></article><article class="step"><span class="step-index">03</span><div><h3>Learn, build, and present</h3><p>Work through the process, develop your skills, and communicate your work with confidence.</p></div><span class="step-mark">↗</span></article></div></div></section>
 
-                <!--<div class="col-lg-4 col-md-6">
-                    <h4 class="text-white mb-3">Subscribe to our Newsletter</h4>
-                    <p>Subscribe now and join our growing community of learners committed to lifelong education! </p>
-                    <div class="position-relative mx-auto" style="max-width: 400px;">
-                        <form action="#">
-                            <input class="form-control border-0 w-100 py-3 ps-4 pe-5" type="email"
-                                placeholder="Your email" required>
-                            <button type="submit"
-                                class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2"><a
-                                    href="mailto:keertidvcorai@gmail.com">Subscribe</a></button>
-                        </form>
-                    </div>
-                </div>-->
-            </div>
-        </div>
-        <div class="container">
-            <div class="copyright">
-                <div class="row">
-                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0"> 
-                        &copy; <a class="border-bottom" style="color:azure;" href="index.html">Copyright © 2024 SkillproPlus</a>, All Right Reserved.
-                        <p>Affiliated with Ravuru Tech Pvt LTD & Terms and Conditions applicable as like Ravuru Tech Pvt LTD</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Footer End -->
+    <section class="youtube-section section-pad"><div class="wrap youtube-panel"><div class="youtube-icon" aria-hidden="true">▶</div><div class="youtube-copy"><div class="eyebrow"><span class="eyebrow-dot"></span> Keep learning with us</div><h2>Ideas, guidance &amp; more<br><span class="serif-accent">on our channel.</span></h2><p>Visit the SkillproPlus YouTube channel for learning content and updates. New videos are shared on the channel as they become available.</p></div><a class="button button-dark" href="https://www.youtube.com/@skillproplus" target="_blank" rel="noopener noreferrer">Visit our YouTube channel <span aria-hidden="true">↗</span></a></div></section>
 
-    <!-- Back to Top -->
-    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+    <section class="faq-section section-pad" id="faq"><div class="wrap faq-grid"><div><div class="eyebrow"><span class="eyebrow-dot"></span> A few helpful details</div><h2>Questions?<br><span class="serif-accent">Start here.</span></h2><p>Have a question that is specific to your college, project, or timeline? <a href="contact.html">Get in touch with us.</a></p></div><div class="faq-list">
+      <details><summary>What does SkillproPlus help students with?<span></span></summary><p>We support students with internship learning opportunities, final-year and academic project guidance, and research and technical documentation support.</p></details>
+      <details><summary>Can you help me choose a final-year project topic?<span></span></summary><p>Yes. Tell us your course, interests, and any college requirements, and we can discuss project directions and a practical plan with you.</p></details>
+      <details><summary>Do you provide IEEE research papers or guarantee publication?<span></span></summary><p>No. We do not claim to have published papers available or guarantee publication. We can discuss responsible research guidance and support with presenting your own work.</p></details>
+      <details><summary>How do I ask about an internship or service?<span></span></summary><p>Use our contact page or email skillproplus.edu@outlook.com. Include your area of interest and any relevant deadlines so our team can understand your request.</p></details>
+    </div></div></section>
 
-    <!-- JavaScript Libraries -->
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="lib/wow/wow.min.js"></script>
-    <script src="lib/easing/easing.min.js"></script>
-    <script src="lib/waypoints/waypoints.min.js"></script>
-    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-
-    <!-- Template Javascript -->
-    <script src="js/main.js"></script>
+    <section class="cta-section"><div class="wrap cta-inner"><div><div class="eyebrow eyebrow-light"><span class="eyebrow-dot"></span> Your next step can start today</div><h2>Have an idea in mind?</h2><p>Tell us what you are working towards. Let’s find a good way to get started.</p></div><a class="button button-accent" href="contact.html">Talk to SkillproPlus <span aria-hidden="true">→</span></a></div></section>
+  </main>
+  <footer class="site-footer"><div class="wrap footer-main"><div class="footer-brand"><a class="brand brand-footer" href="index.html"><img src="img/log.png" alt="" width="42" height="42"><span>skillpro<span class="brand-accent">plus</span><small>LEARN · BUILD · GROW</small></span></a><p>Practical learning, project guidance, and research support for students building their next chapter.</p></div><div class="footer-col"><h2>Explore</h2><a href="#services">Our services</a><a href="internship.html">Internships</a><a href="projects.html">Academic projects</a><a href="about.html">About us</a></div><div class="footer-col"><h2>Connect</h2><a href="contact.html">Contact our team</a><a href="mailto:skillproplus.edu@outlook.com">skillproplus.edu@outlook.com</a><a href="https://www.youtube.com/@skillproplus" target="_blank" rel="noopener noreferrer">YouTube channel ↗</a><span>Bengaluru, Karnataka, India</span></div></div><div class="wrap footer-bottom"><span>© <span id="year">2026</span> SkillproPlus. All rights reserved.</span><span>Learn with purpose. Build with confidence.</span></div></footer>
+  <script>
+    const menuButton = document.querySelector('.menu-toggle');
+    const nav = document.querySelector('.nav-links');
+    menuButton.addEventListener('click', () => {
+      const isOpen = menuButton.getAttribute('aria-expanded') === 'true';
+      menuButton.setAttribute('aria-expanded', String(!isOpen));
+      menuButton.setAttribute('aria-label', isOpen ? 'Open navigation' : 'Close navigation');
+      nav.classList.toggle('is-open', !isOpen);
+    });
+    nav.querySelectorAll('a').forEach((link) => link.addEventListener('click', () => {
+      menuButton.setAttribute('aria-expanded', 'false');
+      menuButton.setAttribute('aria-label', 'Open navigation');
+      nav.classList.remove('is-open');
+    }));
+    document.querySelector('#year').textContent = new Date().getFullYear();
+  </script>
 </body>
-
 </html>
